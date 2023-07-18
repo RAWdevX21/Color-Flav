@@ -1,0 +1,53 @@
+{
+  "bin": {
+    "colorflav": "/src/app.js"
+  },
+  "name": "colorflav",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "convert colors between various formats, generate tints and shades, and generate custom css properties, accessible CLI",
+  "main": "src/app.js",
+  "scripts": {
+    "colorflav": "node /src/app.js",
+    "flavUpHEX": "colorflav /src/app.js flavUpHEX",
+    "flavUpHSL": "colorflav /src/app.js flavUpHSL",
+    "toneUp": "colorflav /src/app.js toneUp",
+    "toneDown": "colorflav /src/app.js toneDown"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAWdevX21/ColorFlav.git"
+  },
+  "keywords": [
+    "color",
+    "colour",
+    "tone",
+    "rgb",
+    "hex",
+    "hsl",
+    "tints",
+    "shades",
+    "css",
+    "properties",
+    "flavor",
+    "flavour",
+    "flav",
+    "flava",
+    "converter",
+    "convert",
+    "conversion",
+    "markdown",
+    "scale",
+    "levels"
+  ],
+  "author": "ricon wrenn (RAWcoding.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RAWdevX21/ColorFlav/issues"
+  },
+  "homepage": "https://github.com/RAWdevX21/ColorFlav#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "html2canvas": "^1.4.1"
+  }
+}
